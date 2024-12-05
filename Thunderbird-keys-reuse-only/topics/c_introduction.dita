@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_tsw_lkd_5r">
+ <title>Introduction</title>
+ <shortdesc>The <term conkeyref="productname_variables/ph_prodname"/> product solves many problems
+        in the management of the things it manages.</shortdesc>
+    <conbody>
+      
+        <p rev="RJ-2023.0"><term conkeyref="productname_variables/ph_companyname"/>
+            <term conkeyref="productname_variables/ph_prodname"/> is a free and open-source
+            cross-platform cluster manager, news client, RSS and chat client that is operated by the
+            MZLA Technologies Corporation.</p>
+    </conbody>
+</concept>
