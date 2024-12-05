@@ -1,0 +1,440 @@
+
+init:
+
+tbird-copy:
+
+tbird-html5.init:
+
+html5.init:
+
+init-properties:
+[init-project] Initializing project
+
+check-arg:
+    [mkdir] Created dir: C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only
+     [echo] * dita.dir = C:\Users\kate\GitHub\tbird-dita-ot-3.7.3
+     [echo] * transtype = tbird-html5
+     [echo] * tempdir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp
+     [echo] * outputdir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only/out/tbird-html5
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 3.7.3
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Mon Jul 10 14:09:24 PDT 2023
+     [echo] args.copycss=yes
+     [echo] args.css=tbird_ltr.css
+     [echo] args.css.file=tbird_ltr.css
+     [echo] args.csspath=css
+     [echo] args.cssroot=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5\\resources
+     [echo] args.ftr=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5\\resources\\footer.xml
+     [echo] args.gen.task.lbl=YES
+     [echo] args.grammar.cache=yes
+     [echo] args.hdf=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5\\resources\\head-scripts.xml
+     [echo] args.hdr=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5\\resources\\header.xml
+     [echo] args.input=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only\\User_Guide-reuse-only.ditamap
+     [echo] args.xml.systemid.set=yes
+     [echo] args.xsl=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.html5/xsl/dita2html5.xsl
+     [echo] dita.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3
+     [echo] dita.html5.reloadstylesheet=false
+     [echo] dita.output.dir=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only/out/tbird-html5
+     [echo] dita.plugin.com.tbird.html5.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5
+     [echo] dita.plugin.com.tbird.pdf.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.pdf
+     [echo] dita.plugin.com.tbird.strings.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.strings
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.base
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.index.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.index
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.lwdita.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.xdita.v0_2_2
+     [echo] dita.temp.dir=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\User_Guide-reuse-only.ditamap
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/User_Guide-reuse-only.ditamap
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/Images/images-keys.ditamap
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_FAQ.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_acknowledgement_types.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_architecture_combined.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cc_config_ext.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_changes_from_previous.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cluster_capacity.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_common_tasks.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_getting_started.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_introduction.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_guide.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_mobileview.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_customize_views.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_diagnostics_tab.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_managing_messages.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_organization.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_performance_tab.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_workspace_tab.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_image_warehouse.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_filters.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_messages.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_dataview.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_health_indicators.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_system_notifications.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_productname_variables.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_generating_data_views.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_logging_on.dita
+ [gen-list] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_troubleshooting_clusters.dita
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_generating_data_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_dataview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_changes_from_previous.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_troubleshooting_clusters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_managing_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_productname_variables.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_productname_variables.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_diagnostics_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/User_Guide-reuse-only.ditamap to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_introduction.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_filters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_acknowledgement_types.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_acknowledgement_types.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_organization.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_mobileview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cluster_capacity.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_image_warehouse.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_image_warehouse.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cc_config_ext.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cc_config_ext.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_system_notifications.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_common_tasks.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_logging_on.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_architecture_combined.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_workspace_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_performance_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_guide.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_guide.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/Images/images-keys.ditamap to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/Images/images-keys.ditamap
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_health_indicators.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_FAQ.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_customize_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_getting_started.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+   [filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+
+mapref-check:
+
+mapref:
+   [mapref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [mapref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/Images/images-keys.ditamap
+
+branch-filter:
+[branch-filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+
+keyref:
+   [keyref] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_image_warehouse.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+   [mapref] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp
+   [mapref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/mapref.xsl
+   [mapref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+
+copy-to:
+
+conrefpush:
+
+conref:
+   [conref] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_image_warehouse.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_productname_variables.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_acknowledgement_types.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_image_warehouse.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cc_config_ext.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_guide.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+[topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+
+chunk-check:
+
+chunk:
+    [chunk] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+   [chunk2] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+
+move-meta-entries:
+[move-meta] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+[move-meta] Loading stylesheet C:\Users\kate\GitHub\tbird-dita-ot-3.7.3\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+
+maplink-check:
+
+maplink:
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_guide.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_acknowledgement_types.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cc_config_ext.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+  [maplink] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp
+[topicpull] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_acknowledgement_types.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cc_config_ext.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_guide.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita
+
+clean-map-check:
+
+clean-map:
+[clean-map] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp
+[clean-map] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap
+
+clean-preprocess:
+
+copy-image:
+     [copy] Copying 10 files to C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\out\tbird-html5
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files:
+
+preprocess:
+
+html5.topic.init:
+
+html5.image-metadata:
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\t_mv_generating_data_views.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\r_mv_quickref_dataview.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_changes_from_previous.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\t_mv_troubleshooting_clusters.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_managing_messages.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_diagnostics_tab.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/ThunderBird-Troubleshooting-sm.png
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/operational_icon.png
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/warning_icon.png
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/error_icon.png
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_introduction.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\r_mv_query_filters.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_acknowledgement_types.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_organization.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_about_mobileview.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_cluster_capacity.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_cc_config_ext.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\r_mv_system_notifications.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_common_tasks.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\t_mv_logging_on.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/ThunderBird-Login-sm.png
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_architecture_combined.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/Thunder-MultiDevice-003.jpg
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_workspace_tab.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/ThunderBird-Workspace-sm.png
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_performance_tab.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/ThunderBird-Performance-sm.png
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_about_guide.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\r_mv_quickref_health_indicators.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_FAQ.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_mv_customize_views.dita
+[image-metadata] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/Images/ThunderBird-Customize-sm.png
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\c_getting_started.dita
+[image-metadata] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-html5\oxygen_dita_temp\topics\r_mv_query_messages.dita
+
+html5.topics.common:
+
+html5.topics.common.inner:
+     [xslt] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\out\tbird-html5
+     [xslt] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Stylesheet module plugin:org.dita.html5:xsl/syntax-braces.xsl is included or imported more than once. This is permitted, but may lead to errors or unexpected behavior
+     [xslt] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.html5/xsl/dita2html5.xsl
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_generating_data_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/t_mv_generating_data_views.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_dataview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/r_mv_quickref_dataview.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_changes_from_previous.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_changes_from_previous.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_troubleshooting_clusters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/t_mv_troubleshooting_clusters.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_managing_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_managing_messages.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_diagnostics_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_diagnostics_tab.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_introduction.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_introduction.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_filters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/r_mv_query_filters.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_acknowledgement_types.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_acknowledgement_types.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_organization.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_organization.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_mobileview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_about_mobileview.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cluster_capacity.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_cluster_capacity.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_cc_config_ext.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_cc_config_ext.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_system_notifications.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/r_mv_system_notifications.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_common_tasks.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_common_tasks.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/t_mv_logging_on.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/t_mv_logging_on.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_architecture_combined.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_architecture_combined.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_workspace_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_workspace_tab.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_performance_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_performance_tab.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_about_guide.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_about_guide.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_quickref_health_indicators.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/r_mv_quickref_health_indicators.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_FAQ.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_FAQ.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_mv_customize_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_mv_customize_views.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/c_getting_started.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/c_getting_started.html
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/topics/r_mv_query_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/topics/r_mv_query_messages.html
+
+html5.topic:
+
+html5.map.init:
+
+html5.map.toc:
+     [xslt] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\out\tbird-html5
+     [xslt] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Stylesheet module plugin:org.dita.html5:xsl/syntax-braces.xsl is included or imported more than once. This is permitted, but may lead to errors or unexpected behavior
+     [xslt] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.html5/xsl/map2html5-cover.xsl
+     [xslt] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-html5/oxygen_dita_temp/User_Guide-reuse-only.ditamap to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/out/tbird-html5/index.html
+
+html5.map:
+
+html5.css:
+
+html5.copy-css-user:
+
+dita2html5:
+
+dita2tbird-html5:
+
+clean-temp:
+
+BUILD SUCCESSFUL
+Total time: 12 seconds

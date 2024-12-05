@@ -1,0 +1,426 @@
+
+init:
+
+dita2tbird-pdf.init:
+
+dita2pdf2.init:
+
+init-properties:
+[init-project] Initializing project
+
+check-arg:
+    [mkdir] Created dir: C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only
+     [echo] * dita.dir = C:\Users\kate\GitHub\tbird-dita-ot-3.7.3
+     [echo] * transtype = tbird-pdf
+     [echo] * tempdir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp
+     [echo] * outputdir = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only/out/tbird-pdf
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 3.7.3
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Mon Jul 10 14:09:38 PDT 2023
+     [echo] args.bookmap-order=discard
+     [echo] args.bookmark.style=COLLAPSED
+     [echo] args.chapter.layout=BASIC
+     [echo] args.figurelink.style=NUMTITLE
+     [echo] args.filter=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only\\ditavals\\product-sta.ditaval
+     [echo] args.gen.task.lbl=YES
+     [echo] args.grammar.cache=yes
+     [echo] args.input=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only\\User_Guide-reuse-only.ditamap
+     [echo] args.rellinks=none
+     [echo] args.tablelink.style=NUMTITLE
+     [echo] args.xml.systemid.set=yes
+     [echo] args.xsl.pdf=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.pdf\\xsl\\fo\\tbird_topic2fo.xsl
+     [echo] dita.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3
+     [echo] dita.output.dir=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only/out/tbird-pdf
+     [echo] dita.plugin.com.tbird.html5.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.html5
+     [echo] dita.plugin.com.tbird.pdf.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.pdf
+     [echo] dita.plugin.com.tbird.strings.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\com.tbird.strings
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.base
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.index.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.index
+     [echo] dita.plugin.org.dita.normalize.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.normalize
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.lwdita.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.lwdita
+     [echo] dita.plugin.org.oasis-open.dita.techcomm.v2_0.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.techcomm.v2_0
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.plugin.org.oasis-open.dita.v2_0.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.dita.v2_0
+     [echo] dita.plugin.org.oasis-open.xdita.v0_2_2.dir=C\:\\Users\\kate\\GitHub\\tbird-dita-ot-3.7.3\\plugins\\org.oasis-open.xdita.v0_2_2
+     [echo] dita.temp.dir=C\:\\Users\\kate\\GitHub\\dita-demo-content-collection\\Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp
+     [echo] preprocess.chunk.skip=true
+     [echo] preprocess.copy-flag.skip=true
+     [echo] preprocess.copy-image.skip=true
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess2.init:
+     [echo] *****************************************************************
+     [echo] * input = C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\User_Guide-reuse-only.ditamap
+     [echo] * resources = ${args.resources}
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+map-reader:
+[map-reader] Using Xerces grammar pool for DTD and schema caching.
+[map-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/User_Guide-reuse-only.ditamap to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[map-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/Images/images-keys.ditamap to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0ae384773691d47da8139005953d62c0dd823b8e.ditamap
+[map-reader] Serializing job specification
+
+map-mapref:
+   [mapref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+map-branch-filter:
+[branch-filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+map-keyref:
+   [keyref] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+   [mapref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+map-conrefpush:
+
+map-conref:
+   [conref] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/map-conref.xsl
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/map-conref.xsl
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+map-profile-check:
+
+map-profile:
+  [profile] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp\683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+preprocess2.maps:
+
+topic-reader:
+[topic-reader] Using Xerces grammar pool for DTD and schema caching.
+[topic-reader] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_FAQ.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_acknowledgement_types.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/cf20f2be598dc958d61181d9d00aaee2677310c3.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_architecture_combined.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cc_config_ext.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/7bab8bb5e40363f60fef1331d9ed60950ecb3c8a.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_changes_from_previous.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fdce7896f6e27381115642eb6592bad565d3f2b4.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_cluster_capacity.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_common_tasks.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3202dc40d90461e91253fb6cd0d71de18c86091c.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_getting_started.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_introduction.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_guide.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/009b37bbce0813d5df8a16de5f0cd9278c41caaf.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_about_mobileview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_customize_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_diagnostics_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_managing_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_organization.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_performance_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/c_mv_workspace_tab.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_image_warehouse.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c23acb4689778036f613a03abbc958f1da1e14bb.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_filters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_query_messages.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_dataview.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_quickref_health_indicators.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_mv_system_notifications.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/r_productname_variables.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/f840577fd75bd5407ffc911f8e9397530dbfc056.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_generating_data_views.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_logging_on.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+[topic-reader] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/topics/t_mv_troubleshooting_clusters.dita to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+[topic-reader] Serializing job specification
+
+topic-branch-filter:
+[branch-filter] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+topic-keyref:
+   [keyref] Reading file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3202dc40d90461e91253fb6cd0d71de18c86091c.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c23acb4689778036f613a03abbc958f1da1e14bb.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fdce7896f6e27381115642eb6592bad565d3f2b4.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+   [keyref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+
+topic-copy-to:
+
+topic-conrefpush:
+
+topic-conref:
+   [conref] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/conref.xsl
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c23acb4689778036f613a03abbc958f1da1e14bb.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+   [conref] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+
+topic-profile-check:
+
+topic-profile:
+
+preprocess2.topic-fragment:
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c23acb4689778036f613a03abbc958f1da1e14bb.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/cf20f2be598dc958d61181d9d00aaee2677310c3.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/009b37bbce0813d5df8a16de5f0cd9278c41caaf.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3202dc40d90461e91253fb6cd0d71de18c86091c.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/f840577fd75bd5407ffc911f8e9397530dbfc056.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/7bab8bb5e40363f60fef1331d9ed60950ecb3c8a.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0ae384773691d47da8139005953d62c0dd823b8e.ditamap
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fdce7896f6e27381115642eb6592bad565d3f2b4.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+[preprocess2.topic-fragment] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+
+topic-chunk:
+
+topic-move-meta-entries:
+[move-meta] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[move-meta] Loading stylesheet C:\Users\kate\GitHub\tbird-dita-ot-3.7.3\plugins\org.dita.base\xsl\preprocess\mappull.xsl
+[move-meta] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+
+topic-maplink:
+
+topic-topicpull:
+[topicpull] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp
+[topicpull] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/topicpull.xsl
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/cf20f2be598dc958d61181d9d00aaee2677310c3.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/009b37bbce0813d5df8a16de5f0cd9278c41caaf.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3202dc40d90461e91253fb6cd0d71de18c86091c.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/7bab8bb5e40363f60fef1331d9ed60950ecb3c8a.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fdce7896f6e27381115642eb6592bad565d3f2b4.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+[topicpull] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+
+preprocess2.topics:
+
+map-clean-map:
+[clean-map] Transforming into C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp
+[clean-map] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.base/xsl/preprocess/clean-map.xsl
+[clean-map] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[clean-map] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0ae384773691d47da8139005953d62c0dd823b8e.ditamap
+
+clean-preprocess:
+
+copy-image2:
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files2:
+
+preprocess2:
+
+map2pdf2:
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/683d0b258e237b82d91e5cda5772fb321a102418.ditamap
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fdce7896f6e27381115642eb6592bad565d3f2b4.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/7bab8bb5e40363f60fef1331d9ed60950ecb3c8a.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/c9d293f773e657b1e0886a2ef8f51bc3328a4607.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/32f41d0cef1381b7cf93413ac1793a06089376d6.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/009b37bbce0813d5df8a16de5f0cd9278c41caaf.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/fbf968bc645d9590e80e57cf4d85adba604a3424.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/cf20f2be598dc958d61181d9d00aaee2677310c3.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6eaf55587b3d2f7654572c2c64329516580adc9e.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/a1ccc8e6e4cf5f45962fe6371c61c1f456e02a38.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/09ff4173ade2c616e8ead4ebaa679b80a35a3087.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a94ddb45442fef24eafb64159f7d3552f82bd51.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/64a1a91dd857e8851d22169f33dcfdfac0703cee.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e125b309ef4e3d2e7457484c520a8379ead7225.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/0e7fd34cb5d769df436b0e17ba781289558c062a.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3202dc40d90461e91253fb6cd0d71de18c86091c.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1d67544fc1410d1fc44e28a80a57a73701aabdad.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ea5ead2b9ccab0ad1e9fee6327968e45f1269e4.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/d0670d7b6204f8c05415019315f7d069ed32bb51.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/515ab1ecd08329abb7370b86e0708b5c0f09eaca.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/8653efc49d7f54798f7b0dbad432bf013a979e2d.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/3ae23e9f088cd78db1b6d6a8481e6f7779ad37e1.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/260a603ede1fb28c56a438a0298d4a9feb9fd746.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/2b3648801807c248e304c9f3a2085026fb4e04bc.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/6963de7483450147c2fbe4c65b9b79874d7d84f7.dita
+[topic-merge] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/1a52fcb25e10a41e8e697b3b5d8deb0b53c9c6a5.dita
+
+transform.topic2pdf.init:
+
+publish.map.pdf.init:
+
+copyCoreArtwork:
+     [copy] Copying 3 files to C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp\Configuration\OpenTopic
+     [copy] Copying 1 file to C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp\Customization\OpenTopic
+
+transform.fo2pdf.xep.test-use:
+
+transform.fo2pdf.xep.init:
+
+transform.fo2pdf.fop.test-use:
+
+transform.fo2pdf.fop.init:
+
+transform.fo2pdf.ah.test-use:
+
+transform.fo2pdf.ah.init:
+
+transform.topic2fo.init:
+[detect-lang] Lang search finished
+     [echo] Using document.locale=en_US
+
+org.dita.index.init:
+
+org.dita.index:
+     [echo] Processing C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp\User_Guide-reuse-only_MERGED.xml to C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/stage1.xml
+
+transform.topic2fo.main:
+ [pipeline] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/com.tbird.pdf/xsl/fo/tbird_topic2fo.xsl
+ [pipeline] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/com.tbird.pdf/xsl/fo/tbird_topic2fo.xsl
+ [pipeline] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/stage1.xml to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/stage2.fo
+
+transform.topic2fo.i18n.filter:
+[i18n-preprocess] Processing file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/stage2.fo to file:/C:/Users/kate/GitHub/dita-demo-content-collection/Thunderbird-keys-reuse-only/temp/tbird-pdf/oxygen_dita_temp/topic.fo
+[i18n-preprocess] Loading stylesheet file:/C:/Users/kate/GitHub/tbird-dita-ot-3.7.3/plugins/org.dita.pdf2/xsl/fo/i18n-postprocess.xsl
+
+transform.topic2fo.i18n.no-filter:
+
+transform.topic2fo.i18n:
+
+transform.topic2fo:
+
+transform.fo2pdf.xep:
+
+transform.fo2pdf.fop:
+      [fop] [WARN] Font "SimSun,normal,700" not found. Substituting with "SimSun,normal,400".
+      [fop] [INFO] Rendered page #1.
+      [fop] [INFO] Rendered page #2.
+      [fop] [INFO] Rendered page #3.
+      [fop] [INFO] Rendered page #4.
+      [fop] [INFO] Rendered page #5.
+      [fop] [INFO] Rendered page #6.
+      [fop] [INFO] Rendered page #7.
+      [fop] [INFO] Rendered page #8.
+      [fop] [INFO] Rendered page #9.
+      [fop] [INFO] Rendered page #10.
+      [fop] [INFO] Rendered page #11.
+      [fop] [INFO] Rendered page #12.
+      [fop] [INFO] Rendered page #13.
+      [fop] [INFO] Rendered page #14.
+      [fop] [INFO] Rendered page #15.
+      [fop] [INFO] Rendered page #16.
+      [fop] [INFO] Rendered page #17.
+      [fop] [INFO] Rendered page #18.
+      [fop] [INFO] Rendered page #19.
+      [fop] [INFO] Rendered page #20.
+      [fop] [INFO] Rendered page #21.
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1445:1805)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1445:2564)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1445:3598)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1446:2152)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1446:3258)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1446:3851)
+      [fop] [WARN] The following feature isn't implemented by Apache FOP, yet: table-layout="auto" (on fo:table) (See position 1446:5000)
+      [fop] [INFO] Rendered page #22.
+      [fop] [INFO] Rendered page #23.
+      [fop] C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\temp\tbird-pdf\oxygen_dita_temp\topic.fo -> C:\Users\kate\GitHub\dita-demo-content-collection\Thunderbird-keys-reuse-only\out\tbird-pdf\User_Guide-reuse-only.pdf
+
+transform.fo2pdf.ah:
+
+transform.fo2pdf:
+
+transform.topic2pdf:
+
+publish.map.pdf:
+
+topic2pdf2:
+
+dita2pdf2:
+
+dita2tbird-pdf:
+
+clean-temp:
+
+BUILD SUCCESSFUL
+Total time: 21 seconds

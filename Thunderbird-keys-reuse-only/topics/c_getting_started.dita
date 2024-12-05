@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_i4g_zkd_5r">
+ <title>Getting Started</title>
+ <shortdesc>Understanding the <term
+    conkeyref="productname_variables/ph_prodname"/> product.</shortdesc>
+    <conbody>
+        <p rev="RJ-2023.0">If you’ve looked at the <term
+                conkeyref="productname_variables/ph_prodname"/> website or processor product briefs,
+            you know that you can extend <term conkeyref="productname_variables/ph_companyname"/>
+            dataplane processors (DPUs)—adding instruction sets, execution units, and processor I/O
+            interfaces—to match your specific application needs. </p>
+        <p rev="RJ-2023.0"><term conkeyref="productname_variables/ph_prodname"/> has invested
+            heavily in its <term conkeyref="productname_variables/ph_companyname"/> design
+            environment to make your task—customizing a processor for your exact application—as
+            quick and friendly as possible. Some designers find that the base configuration is
+            sufficient for their design. Others add pre-built options using the simple check boxes.
+            And some designers write their own TIE for maximum performance</p>
+    </conbody>
+</concept>

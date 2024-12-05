@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_pbs_tqy_yxb">
+    <title>Acknowledgement Types</title>
+    <shortdesc>Definition list of alarm acknowledgement types. </shortdesc>
+    <conbody>
+        <dl id="dl_u2q_5qy_yxb">
+            <dlentry>
+                <dt>Alternate</dt>
+                <dd>Alarm was acknowledged by a user using the alternate mode.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Default</dt>
+                <dd>Alarm was acknowledged by a user, or auto-acknowledged by the system.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Forcibly</dt>
+                <dd>An administrator forced the alarm to be acknowledged.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
